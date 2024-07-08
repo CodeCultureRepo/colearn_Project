@@ -1,0 +1,109 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.images img {
+    max-width: 23%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Course and Login Section Styles */
+.course-menu {
+    margin-bottom: 1rem;
+}
+
+.course-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-menu ul li {
+    margin: 0;
+}
+
+.course-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.course-menu ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.course {
+    margin: 2rem 0;
+}

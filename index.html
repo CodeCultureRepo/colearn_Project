@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Learning Platform</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Images -->
+    <div class="images">
+        <img src="https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Image 1">
+        <img src="https://images.pexels.com/photos/4144228/pexels-photo-4144228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2">
+        <img src="https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3">
+        <img src="https://images.pexels.com/photos/5088188/pexels-photo-5088188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 4">
+    </div>
+
+    <!-- Sections -->
+    <div class="container">
+        <section id="home">
+            <div class="welcome">
+                <h1>Welcome to My Learning Platform</h1>
+                <p>Introduction to the platform.</p>
+                <div class="buttons">
+                    <button onclick="location.href='login.html'">Login</button>
+                    <button onclick="location.href='Registration.html'">Register</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <div class="course-menu">
+                <ul>
+                    <li><a href="#course1">Course 1</a></li>
+                    <li><a href="#course2">Course 2</a></li>
+                    <li><a href="#course3">Course 3</a></li>
+                </ul>
+            </div>
+            <div class="course" id="course1">
+                <button onclick="location.href='course1.html'">Course 1</button>
+                <p>Description for Course 1</p>
+            </div>
+            <div class="course" id="course2">
+                <button onclick="location.href='course2.html'">Course 2</button>
+                <p>Description for Course 2</p>
+            </div>
+            <div class="course" id="course3">
+                <button onclick="location.href='course3.html'">Course 3</button>
+                <p>Description for Course 3</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Information about the platform.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contact details.</p>
+        </section>
+    </div>
+</body>
+
+</html>

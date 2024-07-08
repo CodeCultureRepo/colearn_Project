@@ -1,0 +1,64 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Simple API",
+      "description": "A simple API to get user credentials and post a message",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000"
+      }
+    ],
+    "paths": {
+      "/credentials": {
+        "get": {
+          "summary": "Get user credentials",
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "username": {
+                        "type": "string"
+                      },
+                      "password": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/collect": {
+        "post": {
+          "summary": "Collect information",
+          "responses": {
+            "200": {
+              "description": "Information has been collected",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "message": {
+                        "type": "string",
+                        "example": "Information has been collected"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
